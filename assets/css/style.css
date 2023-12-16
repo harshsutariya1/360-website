@@ -98,8 +98,10 @@ nav {
 
 .quote {
   color: #fff;
-  /* color: #fff; Ensure this color is readable on your background */
   /* color: #feb900; */
+}
+.quote span{
+  color: #feb900;
 }
 
 /* This will apply when the screen width is 600px or less */
