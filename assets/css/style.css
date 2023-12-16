@@ -25,7 +25,7 @@
   min-height: 100vh;
   width: 100%;
   /* border: 5px solid black; */
-  background-image: linear-gradient(to bottom, rgba(44, 15, 124, 0.989) 15%, rgb(255, 255, 255));
+  background-image: linear-gradient(to bottom, rgba(44, 15, 124, 0.989) 60%, rgb(255, 255, 255));
   background-size: cover;
   background-position: center;
   position: relative;
@@ -86,18 +86,20 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 
 .einstein-img, .quote {
   flex: 1;
   margin: 1%;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   text-align: center;
 }
 
 .quote {
-  color: #fff; /* Ensure this color is readable on your background */
+  color: #fff;
+  /* color: #fff; Ensure this color is readable on your background */
+  /* color: #feb900; */
 }
 
 /* This will apply when the screen width is 600px or less */
@@ -106,17 +108,3 @@ nav {
     flex-direction: column;
   }
 }
-
-/* .einstein-img {
-  margin: 1%;
-  border: 2px solid black;
-  vertical-align: top;
-}
-
-.quote {
-  margin: 1%;
-  border: 2px solid black;
-  color: #fff;
-  text-align: center;
-  vertical-align: top;
-} */
