@@ -9,17 +9,19 @@
 
      <!-- Main CSS File -->
      <link rel="stylesheet" href="assets\css\style.css">
-
+     
      <!-- Logo -->
      <link rel="icon" href="assets\images\360mainlogo.png">
-
+     
      <!-- Google Fonts -->
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Poppins:wght@100;200;300;400;600;700&display=swap"
-          rel="stylesheet">
-
+     rel="stylesheet">
+     
      <!-- Vendor CSS Files -->
+     <script src="https://kit.fontawesome.com/ad424752a8.js" crossorigin="anonymous"></script>
+     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous"> -->
      <!-- <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
      <!-- <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
      <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
@@ -42,7 +44,8 @@
           <nav class="navbar">
                <!-- <a href="index.html"><img src="assets/images/360mainlogo.png" alt="Logo" height="100"></a> -->
                <a href="index.html" class="logo">360<span>&deg;</span> Institute for <span>Development</span></a>
-               <div class="nav-links">
+               <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
                     <ul>
                          <li><a href="">Home</a></li>
                          <li><a href="">About</a></li>
@@ -51,6 +54,7 @@
                          <li><a href="">Contact Us</a></li>
                     </ul>
                </div>
+               <i class="fa fa-bars" onclick="showMenu()"></i>
           </nav>
           <!-- End Navbar -->
 
@@ -81,6 +85,17 @@
           </footer>
      </section>
      <!-- ________________________________________________________________________________________________________ -->
+
+     <script>
+          // ============ Java script for menu bar =============
+          var navLinks = document.getElementById("navLinks");
+          function showMenu(){
+               navLinks.style.right = "0";
+          }
+          function hideMenu(){
+               navLinks.style.right = "-200px";
+          }
+     </script>
 
 </body>
 
