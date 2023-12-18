@@ -15,7 +15,7 @@
 
 body {
   overflow-x: hidden;
-  /*===============Copilot===============*/
+  background-image: linear-gradient(to bottom, rgba(44, 15, 124, 0.989) 50%, rgb(255, 255, 255));
 }
 
 /*--------------------------------------------------------------
@@ -23,10 +23,9 @@ body {
 --------------------------------------------------------------*/
 
 .header-navbar-einstein {
-  min-height: 100vh;
+  min-height: 70vh;
   width: 100%;
-  /* border: 5px solid black; */
-  background-image: linear-gradient(to bottom, rgba(44, 15, 124, 0.989) 70%, rgb(255, 255, 255));
+  border: 5px solid black;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -89,20 +88,20 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 2px solid black; */
+  background-color: rgba(255, 207, 144, 0.255);
+  border-radius: 30%;
+  /* background: blur(50px); */
 }
 
 .einstein-img,
 .quote {
   flex: 1;
   margin: 1%;
-  /* border: 2px solid black; */
   text-align: center;
 }
 
 .quote {
   color: #fff;
-  /* color: #feb900; */
 }
 
 /* .quotesign::before {
@@ -124,12 +123,35 @@ nav .fa {
   display: none;
 }
 
+
+/*--------------------------------------------------------------
+# Main Content body
+--------------------------------------------------------------*/
+.main-content{
+  height: 100vh;
+  border: 2px solid black;
+  margin-top: 1%;
+}
+
+/*--------------------------------------------------------------
+# Footer Section
+--------------------------------------------------------------*/
+.footer-section{
+  margin-top: 1%;
+  height: 50vh;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 /* This will apply when the screen width is 600px or less */
 @media (max-width: 850px) {
 
-  .header-navbar-einstein {
-    background-image: linear-gradient(to bottom, rgba(44, 15, 124, 0.989) 80%, rgb(255, 255, 255));
-  }
+  /*--------------------------------------------------------------
+  # Header
+  --------------------------------------------------------------*/
 
   .einstein-quote {
     margin: 1% 5%;
