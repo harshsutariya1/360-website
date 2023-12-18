@@ -25,7 +25,7 @@ body {
 .header-navbar-einstein {
   min-height: 70vh;
   width: 100%;
-  border: 5px solid black;
+  /* border: 5px solid black; */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -33,6 +33,7 @@ body {
 
 .logo {
   color: #fff;
+  font-size: large;
 }
 
 .logo span {
@@ -88,7 +89,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(255, 207, 144, 0.255);
+  background-color: rgba(238, 192, 133, 0.304);
   border-radius: 30%;
   /* background: blur(50px); */
 }
@@ -128,9 +129,53 @@ nav .fa {
 # Main Content body
 --------------------------------------------------------------*/
 .main-content{
+
   height: 100vh;
-  border: 2px solid black;
-  margin-top: 1%;
+  /* border: 2px solid black; */
+  margin-top: 3%;
+}
+.boxes{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 3%;
+}
+.boxes h2{
+  font-size: 36px;
+  font-weight: 600;
+  color: #feb900;
+}
+.boxes p{
+  line-height: 22px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+}
+.row{
+  display: flex;
+  margin-top: 5%;
+  justify-content: space-between;
+}
+.row h3{
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.row p{
+  color: #363333;
+}
+.col{
+  flex-basis: 31%;
+  background:#fff3f3 ;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+.col:hover{
+  box-shadow: 0 0 20px 0 #feba0093;
 }
 
 /*--------------------------------------------------------------
@@ -138,8 +183,8 @@ nav .fa {
 --------------------------------------------------------------*/
 .footer-section{
   margin-top: 1%;
-  height: 50vh;
-  border: 2px solid black;
+  /* height: 50vh; */
+  /* border: 2px solid black; */
   display: flex;
   justify-content: center;
   align-items: center;
