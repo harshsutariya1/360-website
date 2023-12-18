@@ -91,7 +91,6 @@ nav {
   align-items: center;
   background-color: rgba(238, 192, 133, 0.304);
   border-radius: 30%;
-  /* background: blur(50px); */
 }
 
 .einstein-img,
@@ -103,6 +102,7 @@ nav {
 
 .quote {
   color: #fff;
+  font-weight: 600;
 }
 
 /* .quotesign::before {
@@ -124,76 +124,8 @@ nav .fa {
   display: none;
 }
 
-
-/*--------------------------------------------------------------
-# Main Content body
---------------------------------------------------------------*/
-.main-content{
-
-  height: 100vh;
-  /* border: 2px solid black; */
-  margin-top: 3%;
-}
-.boxes{
-  width: 80%;
-  margin: auto;
-  text-align: center;
-  padding-top: 3%;
-}
-.boxes h2{
-  font-size: 36px;
-  font-weight: 600;
-  color: #feb900;
-}
-.boxes p{
-  line-height: 22px;
-  padding: 10px;
-  font-size: 14px;
-  font-weight: 300;
-  color: #fff;
-}
-.row{
-  display: flex;
-  margin-top: 5%;
-  justify-content: space-between;
-}
-.row h3{
-  text-align: center;
-  font-weight: 600;
-  margin: 10px 0;
-}
-.row p{
-  color: #363333;
-}
-.col{
-  flex-basis: 31%;
-  background:#fff3f3 ;
-  border-radius: 10px;
-  margin-bottom: 5%;
-  padding: 20px 12px;
-  box-sizing: border-box;
-  transition: 0.5s;
-}
-.col:hover{
-  box-shadow: 0 0 20px 0 #feba0093;
-}
-
-/*--------------------------------------------------------------
-# Footer Section
---------------------------------------------------------------*/
-.footer-section{
-  margin-top: 1%;
-  /* height: 50vh; */
-  /* border: 2px solid black; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
 /* This will apply when the screen width is 600px or less */
 @media (max-width: 850px) {
-
   /*--------------------------------------------------------------
   # Header
   --------------------------------------------------------------*/
@@ -232,4 +164,113 @@ nav .fa {
     padding: 30px;
     text-align: center;
   }
+}
+
+
+/*--------------------------------------------------------------
+# Main Content body
+--------------------------------------------------------------*/
+.main-content {
+
+  /* height: 100vh; */
+  /* border: 2px solid black; */
+  margin-top: 3%;
+}
+
+.boxes {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.boxes h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #feb900;
+}
+
+.boxes p {
+  line-height: 22px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.row {
+  display: flex;
+  margin-top: 5%;
+  justify-content: space-between;
+}
+
+.row h3 {
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.row p {
+  color: #363333;
+}
+
+.col {
+  flex-basis: 31%;
+  background: #fff3f3;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+.col:hover {
+  position: relative;
+  top: -2px;
+  left: -2px;
+  box-shadow: 0 0 20px 0 #feba0093;
+}
+
+.reviews_sec{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactus_sec{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.locations_sec{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.googlemap{
+  margin: 2% 6%;
+  height: 30vh;
+  border-radius: 20px;
+}
+
+/* This will apply when the screen width is 600px or less */
+@media (max-width: 850px) {
+  /*--------------------------------------------------------------
+  # Main content body
+  --------------------------------------------------------------*/
+  .row{
+    flex-direction: column;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# Footer Section
+--------------------------------------------------------------*/
+.footer-section {
+  margin: 3%;
+  /* height: 50vh; */
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
