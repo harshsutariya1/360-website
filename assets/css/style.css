@@ -231,22 +231,25 @@ nav .fa {
   box-shadow: 0 0 20px 0 #feba0093;
 }
 
-.reviews_sec{
+.reviews_sec {
   display: flex;
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-.contactus_sec{
+
+.contactus_sec {
   display: flex;
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-.locations_sec{
+
+.locations_sec {
   display: flex;
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-.googlemap{
+
+.googlemap {
   margin: 2% 6%;
   height: 30vh;
   border-radius: 20px;
@@ -254,10 +257,15 @@ nav .fa {
 
 /* This will apply when the screen width is 600px or less */
 @media (max-width: 850px) {
+
   /*--------------------------------------------------------------
   # Main content body
   --------------------------------------------------------------*/
-  .row{
+  .row {
+    flex-direction: column;
+  }
+
+  .locations_sec{
     flex-direction: column;
   }
 }
