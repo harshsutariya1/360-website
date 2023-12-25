@@ -1,0 +1,59 @@
+/* This will apply when the screen width is 600px or less */
+@media (max-width: 850px) {
+     /*--------------------------------------------------------------
+     # Header
+     --------------------------------------------------------------*/
+     .header-navbar-einstein{
+          min-height: 100vh;
+     }
+
+     .einstein-quote {
+          /* margin: 1% 5%; */
+          flex-direction: column;
+     }
+
+     .einstein-img{
+          margin-bottom: 6%;
+     }
+
+
+     .nav-links ul li {
+          display: block;
+     }
+
+     .nav-links {
+          position: absolute;
+          backdrop-filter: blur(20px);
+          height: 100vh;
+          width: 200px;
+          top: 0;
+          right: -200px;
+          text-align: left;
+          z-index: 2;
+          transition: 0.5s;
+     }
+
+     nav .fa {
+          display: flex;
+          color: #fff;
+          margin: 10px;
+          font-size: 22px;
+          cursor: pointer;
+     }
+
+     .nav-links ul {
+          padding: 30px;
+          text-align: center;
+     }
+
+     /*--------------------------------------------------------------
+     # Main content body
+     --------------------------------------------------------------*/
+     .row {
+          flex-direction: column;
+     }
+
+     .locations_sec {
+          flex-direction: column;
+     }
+}
