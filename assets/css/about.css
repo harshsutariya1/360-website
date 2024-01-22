@@ -1,9 +1,9 @@
 .about_container {
-     padding: 0 5vw;
+     padding: 10px 5vw;
 }
 
 .all_photos {
-     border: 2px solid black;
+     /* border: 2px solid black; */
      display: grid;
      grid-template-columns: repeat(3, 1fr);
      grid-template-rows: repeat(2, 15vw);

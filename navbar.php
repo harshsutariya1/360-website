@@ -4,8 +4,8 @@
      <nav class="navbar">
           <div class="nav-links" id="navLinks">
                <ul>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><img src="assets\images\icons8-mail.gif" id="mail_icon"><a href="#contactUs" class="nav-link">Contact Us</a></li>
                </ul>
           </div>
      </nav>
-</div>
+</div

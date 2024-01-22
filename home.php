@@ -1,5 +1,5 @@
 <div class="home_container">
-     <h2 id="company_name">360<span>&deg;</span> Institute for <span>Development</span></h2>
+     <h2 id="company_name">360<span>&deg;</span> Institute <span>for</span> Development</h2>
      <div class="img_quote">
           <div class="imgbox">
                <img class="img" src="assets\images\360logoenstien-removebg.png" alt="Albert Einstein">

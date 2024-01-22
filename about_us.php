@@ -1,5 +1,5 @@
 <div class="about_container">
-     <h2>About Us</h2>
+     <h2 style="color: #550271;">About Us</h2>
      <p class="discription">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta quos molestiae omnis veniam
           possimus exercitationem libero voluptas maxime, quo ab commodi corporis nam non, minima, dolores aliquid quia
           enim esse! Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptates omnis illum cum delectus,

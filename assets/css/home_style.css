@@ -3,7 +3,8 @@
      text-align: center;
 }
 
-.home_container span{
+.home_container span
+{
 color: rgb(157, 157, 2);
 }
 
@@ -27,7 +28,7 @@ color: rgb(157, 157, 2);
 
 @media (max-width: 800px) {
      .img{
-          width:60vw;
+          width:55vw;
      }
      .img_quote{
           flex-direction: column;

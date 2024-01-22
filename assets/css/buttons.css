@@ -1,0 +1,30 @@
+.whatsapp-icon {
+     position: fixed;
+     top: 250px;
+     right: 20px;
+     z-index: 1000; /* Adjust the z-index if needed to ensure it's above other elements */
+ }
+ 
+ .whatsapp-icon img,
+ .instagram-icon img
+ {
+     /* width: 50px; Adjust the width as needed */
+     height: 50px; /* Adjust the height as needed */
+ }
+ 
+ .instagram-icon{
+     position: fixed;
+     top: 310px;
+     right: 20px;
+     z-index: 1000; /* Adjust the z-index if needed to ensure it's above other elements */
+ }
+ 
+ .back-to-top-btn {
+     display: none;
+     position: fixed;
+     bottom: 20px;
+     right: 20px;
+     z-index: 1000;
+     cursor: pointer;
+     /* Add any additional styling for your button */
+ }
