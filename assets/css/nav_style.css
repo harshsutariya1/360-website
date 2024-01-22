@@ -1,0 +1,52 @@
+.nav-container {
+     border: 2px solid black;
+     margin: 0 auto;
+     padding: 1.5vh 8vw;
+
+     display: flex;
+     /* Use flexbox for layout */
+     justify-content: space-between;
+     /* Align items at the start and end */
+     align-items: center;
+     /* Center items vertically */
+
+}
+
+.logo {
+     height: 6rem;
+     /* width: 15vw; */
+     /* border: 3px solid #000000; */
+}
+
+.navbar {
+     display: inline-block;
+     /* border: 2px solid #000000; */
+}
+
+nav ul {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+
+     /* display: flex; */
+     /* Use flexbox for layout */
+}
+
+nav ul li {
+     display: inline;
+     margin: 0 6vw;
+}
+
+nav a {
+     text-decoration: none;
+     color: #ffffff;
+     font-weight: bold;
+}
+nav a:hover{
+color: rgb(208, 198, 4);
+}
+
+/* Push the navbar to the end of the container */
+.nav-links {
+     margin-left: auto;
+}
