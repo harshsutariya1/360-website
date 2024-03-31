@@ -1,0 +1,37 @@
+.about_container {
+     padding: 10px 5vw;
+  /* border: 2px solid black; */
+}
+
+.all_photos {
+     /* border: 2px solid black; */
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-template-rows: repeat(2, 15vw);
+     grid-gap: 2vw;
+     /* Gap between grid items */
+     padding: 10px;
+}
+
+.photo {
+     width: 100%; /* Set width to 100% to make all images the same size */
+     height: 100%; /* Set height to 100% to maintain aspect ratio */
+      border: 2px solid rgb(123, 113, 98);
+     border-radius: 1rem;
+     object-fit: cover; /* Maintain aspect ratio and cover the entire box */
+}
+
+@media (max-width: 670px) {
+     .all_photos {
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: repeat(3, 17vw);
+      }
+ }
+
+ /* Center-align images within each grid item */
+.all_photos .photo {
+     display: block;
+     margin: 0 auto;
+ }
+
+/* __________________________________________________________________________ */

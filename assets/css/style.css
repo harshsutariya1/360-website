@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.cdnfonts.com/css/agency-fb');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  background-color: #02024b;
+  color: white;
+}
+
+.heading_font{
+  text-align: start;
+  /* border: 2px solid black; */
+  color: rgb(208, 211, 0); 
+  /* font-family: 'Ubuntu', sans-serif; */
+  font-size: 2.4vw;
+}
+
+.hr_line{
+  margin: 0 2vw;
+}
+
+section {
+  text-align: center;
+}
+
+footer {
+  text-wrap: normal;
+  color:rgb(251, 255, 0);
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 0.8rem;
+}
+/* _____________________________________________ */
+@media (max-width: 1400px) {
+  .heading_font{
+    font-size: 5vw;
+  }
+}
+@media (max-width: 800px) {
+  .hr_line{
+    margin: 0 5vw;
+  }
+  .heading_font{
+    font-size: 7vw;
+  }
+  /* footer{ */
+    /* font-size: 2vw; */
+  /* } */
+}
