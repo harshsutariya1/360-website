@@ -1,0 +1,36 @@
+.locations {
+  /* height:70vh; */
+  /* border: 2px solid black; */
+  margin: 20px 5vw;
+}
+
+#loc_box{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#loc{
+  margin: 20px 20px;
+  height: 50vh;
+  width: 50vw;
+  border-radius: 1rem;
+}
+
+.loc_img{
+  width: 40vw;
+  /* border: 2px solid black; */
+}
+
+@media (max-width: 800px) {
+
+  .loc_img{
+    display: none;
+  }
+
+  #loc{
+    height: 40vh;
+    width: 70vw;
+  }
+
+}

@@ -1,0 +1,84 @@
+.founders_sec{
+  /* margin: 20px 5vw; */
+  /* border: 2px solid black; */
+  margin: 20px 5vw;
+}
+
+.f_box{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  line-height: 1.7;
+  /* border: 2px solid black; */
+  font-size: 1.5vw;
+}
+
+.f_photos{
+  /* height: 12rem;*/
+  height: 15vw;
+}
+
+#brijesh_box{
+  margin-bottom: 2rem;
+}
+
+#brijesh_box h3,
+#brijesh_box p{
+  /* border: 2px solid black; */
+  display:flex;
+  align-items: center;
+  justify-content: left;
+  margin-left: 2rem;
+  direction: ltr;
+  text-align: left;
+}
+
+#jigar_box h3,
+#jigar_box p{
+  /* border: 2px solid black; */
+  display:flex;
+  align-items: center;
+  justify-content: right;
+  margin-right: 3rem;
+  direction: rtl;
+  text-align: left;
+}
+
+/* ---------------------------------- */
+@media(max-width:1400px){
+
+  
+}
+
+@media (max-width: 650px) {
+  .f_photos{
+    height: 7rem;
+  }
+
+  .f_box{
+    flex-direction: column;
+    font-size: 0.8rem;
+    /* border: 2px solid black; */
+  }
+
+  #jigar_box img{
+    order: -1;
+  }
+
+  #brijesh_box h3,
+  #brijesh_box p{
+    justify-content: center;
+    margin-left: 0;
+    direction: center;
+    text-align: center;
+  }
+
+  #jigar_box h3,
+  #jigar_box p{
+    justify-content: center;
+    margin-right:0;
+    direction: center;
+    text-align: center;
+  }
+
+}
